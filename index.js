@@ -187,3 +187,4 @@ function init() {
     $('dd[data-id=student-list]').trigger('click');
 }
 init();
+console.log("very good")
