@@ -113,7 +113,7 @@ function getTableData() {
 function transferData(url, data, successCb) {
     $.ajax({
         type: 'get',
-        url: 'http://api.duyiedu.com' + url,
+        url: 'https://api.duyiedu.com' + url,
         data: $.extend(data, {
             appkey: '15613154804_1576050037416'
         }),
